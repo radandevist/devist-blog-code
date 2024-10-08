@@ -1,4 +1,4 @@
-const ParseServer = require('parse-server').default
+const { ParseServer }= require('parse-server')
 const express = require('express')
 
 const main = async () => {
